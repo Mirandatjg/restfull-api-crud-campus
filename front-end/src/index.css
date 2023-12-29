@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial';
+}
+/* Dark-Mode */
+body.dark-mode {
+  background-color: #373737;
+  color: white;
+}
+.nav.dark-mode, .theme.dark-mode {
+  background-color: black;
+  color: white;
+}
+.nav {
+  width: 100%;
+  background-color: dodgerblue;
+  padding: 1rem 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav .logo {
+  color: white;
+  font-weight: 600;
+}
+.nav .user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav .user span {
+  color: white;
+}
+.nav .user button {
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  padding: 4px 12px;
+  transition: .2s linear all;
+}
+.nav .user button:hover, .nav .user button:focus  {
+  background-color: black;
+}
+.theme {
+  width: 100%;
+  background-color: #95cbff;
+  padding: 1rem 7%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.theme button {
+  border: none;
+  outline: none;
+  background-color: #373737;
+  color: white;
+  padding: 4px 12px;
+}
+.container {
+  padding: 1rem 7%;
+}
+img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  object-position: center;
+  background-repeat: no-repeat;
+}
+label {
+  display: block;
+}
+span {
+  color: red;
+  display: block;
+}
